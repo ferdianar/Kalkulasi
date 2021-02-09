@@ -1,0 +1,53 @@
+.onlineAccess {
+     width: 75%;
+     margin: auto;
+     display: flex;
+     overflow: hidden;
+     
+}
+.imageOnlineAccess {
+     width: 60%
+}
+.imageOnlineAccess img {
+     width: 100%;
+}
+.descOnlineAccess {
+     width: 40%;
+     padding-left: 32px;
+}
+.descOnlineAccess h1 {
+     line-height: 2.7rem;
+     padding-bottom: 20px;
+}
+.chatBanner {
+     width: 400px;
+     padding: 1rem 2rem;
+     background-color: #FFF;
+     margin-left: -140px;
+     margin-top: 30px;
+     margin-bottom: 28px;
+}
+.chatBanner p {
+     font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+     .onlineAccess {
+          width: 90%;
+          margin: auto;
+          flex-direction: column;
+     }
+     .imageOnlineAccess {
+          width: 90%;
+          margin: auto;
+     }
+     .descOnlineAccess {
+          width: 90%;
+          margin: auto;
+          padding-left: 0;
+     }
+     .chatBanner {
+          margin: auto;
+          padding-left: 0;
+     }
+}

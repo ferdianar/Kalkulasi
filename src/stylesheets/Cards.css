@@ -1,0 +1,46 @@
+.bookCard {
+     width: 22rem;
+     height: auto;
+     background-image: linear-gradient(to left, red, orange);
+     margin: 10px;
+     border-radius: 16px;
+     transition: .2s ease-out;
+}
+.bookTitle {
+     padding: 10px 0 0;
+     text-align: center;
+     color: #FFF;
+}
+.creator {
+     font-weight: bold;
+     padding: 0 16px;
+     color: #FFF;
+}
+.description {
+     text-align: justify;
+     font-size: 14px;
+     padding: 0 16px 10px;
+     color: #FFF;
+}
+.price {
+     font-weight: bold;
+     padding: 0 16px;
+     color: #FFF;
+}
+.data {
+     margin: -20px 0;
+     display: flex;
+     justify-content: space-between;
+}
+.result {
+     width: 100%;
+     height: auto;
+     display: flex;
+}
+
+@media screen and ( max-width: 992px ) {
+     .bookCard {
+          width: 90%;
+          margin: auto;
+     }
+}

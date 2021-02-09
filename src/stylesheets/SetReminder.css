@@ -1,0 +1,137 @@
+.setReminder {
+     width: 75%;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     margin-bottom: 200px;
+}
+.imagesReminder {
+     width: 40%;
+}
+.imagesReminder img {
+     width: 100%;
+     height: 512px;
+     object-fit: cover;
+}
+.descReminder {
+     width: 60%;
+     display: flex;
+     flex-direction: column;
+}
+.descReminder p {
+     padding-top: 16px;
+     line-height: 1.8rem;
+}
+.textReminder {
+     height: 312px;
+     padding-left: 10%;
+}
+.cardReminder {
+     width: 100%;
+     height: 200px;
+     display: flex;
+}
+.cardsRemind {
+     width: 200px;
+     height: 200px;
+     background-color:#072336;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url('../images//work.jpg');
+     background-size: cover;
+}
+.cardsRemind p {
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Rubik', sans-serif;
+     color: #FFF;
+     position: relative;
+     z-index: 3;
+}
+.cardsRemind:nth-child(2) {
+     background-color: rgb(166, 146, 255);
+     background-image: url('../images/think.jpg');
+     background-size: cover;
+}
+.cardsRemind:nth-child(3) {
+     background-color: rgb(166, 146, 255);
+     background-image: url('../images/work.jpg');
+     background-size: cover;
+}
+.overlay {
+     width: inherit;
+     height: inherit;
+     background-image: linear-gradient(to top, rgb(49, 62, 255), transparent);
+     opacity: .5;
+     position: absolute;
+     z-index: 2;
+}
+.overlay2 {
+     background-image: linear-gradient(to top, rgb(49, 62, 255), transparent);
+     width: inherit;
+     height: inherit;
+     opacity: .7;
+     position: absolute;
+     z-index: 2;
+}
+.overlay3 {
+     background-image: linear-gradient(to top, rgb(49, 62, 255), transparent);
+     width: inherit;
+     height: inherit;
+     opacity: .7;
+     position: absolute;
+     z-index: 2;
+}
+.buttonReminder {
+     margin-top: 24px;
+     padding: .8rem 2.4rem;
+     background-color: #072336;
+     border: none;
+     color: #FFF;
+     border-radius: 25px;
+     font-size: 18px;
+     font-weight: bold;
+}
+.buttonReminder:hover {
+     background-color: rgb(61, 49, 231);
+     cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+     .setReminder {
+          width: 100%;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 100px;
+     }
+     .imagesReminder {
+          width: 90%;
+          margin: auto;
+     }
+     .imagesReminder img {
+          height: 250px;
+     }
+     .descReminder {
+          width: 100%;
+          margin: auto;
+          margin-top: 40px;
+          overflow: hidden;
+     }
+     .textReminder {
+          padding-left: 20px;
+     }
+     .cardReminder {
+          width: 90%;
+          height: 150px;
+          margin: auto;
+          overflow: hidden;
+          align-items: center;
+          justify-content: center;
+     }
+     .cardsRemind {
+          width: 30%;
+          height: 130px;
+          margin: 2%;
+     }
+}

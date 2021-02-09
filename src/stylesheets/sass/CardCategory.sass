@@ -1,0 +1,195 @@
+h2
+     padding-left: 10%
+     font-weight: bold
+     font-size: 18px
+     font-family: 'Poppins', sans-serif
+.banner-container
+     width: 80%
+     margin: auto
+     height: 300px
+     margin-bottom: 32px
+     .container-overlay
+          width: inherit
+          height: inherit
+          background-image: linear-gradient(to right, #000, transparent)
+          object-fit: cover
+          position: absolute
+          z-index: 1
+          border-radius: 8px 0 0 8px
+     img
+          height: 100%
+          width: 100%
+          object-fit: cover
+          border-radius: 8px
+     h3
+          position: absolute
+          z-index: 2
+          padding: 20px 0 0 30px
+          font-size: 28px
+          color: #FFF
+          line-height: 38px
+          font-weight: 600
+     p
+          position: absolute
+          width: 50%
+          z-index: 2
+          padding: 9.5rem 0 0 30px
+          font-size: 16px
+          color: #FFF
+          line-height: 24px
+     button.button-telegram
+          position: absolute
+          z-index: 2
+          margin: 14rem 0 0 30px
+          padding: .5rem 1.8rem
+          border: none
+          background-color: blue
+          border-radius: 4px
+          font-size: 18px
+          font-family: 'Poppins', sans-serif
+          color: #FFF
+          transition: .4s ease-out
+          font-weight: 600
+          &:hover
+               background-color: darkblue
+               cursor: pointer
+.wrapCard
+     width: 80%
+     margin: auto
+     height: 400px
+     display: flex
+     justify-content: space-between
+     .cardCategory
+          width: 32%
+          height: 126px
+          background-color: yellow
+          margin-top: 18px
+          .cardOverlay
+               width: 12%
+               height: inherit
+               opacity: .5
+               position: absolute
+               z-index: 2
+               border-radius: 6px
+          .first
+               background-image: linear-gradient(to right, rgb(7, 13, 88), transparent)
+          .sec
+               background-image: linear-gradient(to right, rgb(0, 0, 0), transparent)
+          .third
+               background-image: linear-gradient(to right, rgb(1, 5, 66), transparent)
+          .titles
+               position: absolute
+               z-index: 2
+               color: #FFF
+               font-weight: 600
+               font-size: 18px
+               line-height: 1.4rem
+               padding: 16px 24px
+          img
+               border-radius: 6px
+               height: 100%
+               width: 100%
+               object-fit: cover
+.endProduct
+     margin-top: -12rem
+     padding-left: 10%
+     padding-right: 10%
+     font-weight: bold
+     font-size: 18px
+     .cards
+               display: flex
+               justify-content: space-between
+               margin-bottom: 4rem
+               .card
+                    width: 18rem
+                    margin-top: 16px
+                    border-radius: 8px
+                    border: .5px solid #e7e7e7
+                    transition: .3s ease-out
+                    &:hover
+                         cursor: pointer
+                         box-shadow: 0px 5px 24px 0px #e0e0e0 
+                    .card-image
+                         width: 100%
+                         height: 200px
+                         img
+                              width: 100%
+                              height: 100%
+                              object-fit: cover
+                              border-radius: 8px 8px 0 0
+                              background-position: center
+                         p
+                              background-color: #FFF
+                              padding: .2rem .7rem
+                              position: absolute
+                              font-size: 14px
+                              margin: 12px 0 0 12px
+                              z-index: 1
+                              border-radius: 25px
+                    .card-body
+                         padding: 12px
+                         .text-muted
+                              color: darkblue
+                              font-weight: 400
+                              font-size: 14px
+                              padding-bottom: 8px;
+                         h3
+                              font-family: 'Rubik', sans-serif
+                         h4
+                              padding-top: 10px
+                              font-family: 'Poppins', sans-serif
+                         .subtitle
+                              font-size: 14px
+                              color: gray
+                              padding-top: 8px
+                              font-weight: normal
+                    .card-footer
+                         width: 100%
+                         text-align: center
+                         padding: 12px
+                         border-top: .4px solid #E7e7e7
+                         .button-cart
+                              width: 100%
+                              padding: .7rem 1.4rem
+                              border: none
+                              background-color: #072336
+                              color: #fff
+                              font-size: 18px
+                              font-weight: bold
+                              border-radius: 4px
+                              &:hover
+                                   cursor: pointer
+                                   background-color: #051825
+@media screen and (max-width: 992px)
+     .banner-container
+          margin-top: 100px
+          h3
+               position: absolute
+               z-index: 2
+               padding: 20px 0 0 30px
+               font-size: 22px
+               color: #FFF
+               line-height: 28px
+               font-weight: 600
+          p
+               width: 75%
+               line-height: 20px
+               font-size: 14px
+               padding-top: 7.2rem
+          button.button-telegram
+               padding: .4rem 1.3rem
+               font-size: 16px
+     .wrapCard
+          margin-bottom: 100px
+          flex-direction: column
+          .cardCategory
+               width: 100%
+     .endProduct
+          margin-top: 50px
+          .cards
+               flex-direction: column
+               .card
+                    width: 100%
+                    margin-top: 50px
+                    &:first-child
+                         margin-top: 20px

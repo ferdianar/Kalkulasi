@@ -1,0 +1,518 @@
+.product {
+  width: 100%;
+  height: 620px;
+  background-color: #072336;
+}
+
+.product .circle {
+  position: absolute;
+  z-index: 2;
+  top: 35%;
+  left: 3%;
+  background-color: blue;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.product .circle2 {
+  height: 100px;
+  width: 100px;
+  top: 20%;
+  right: 2%;
+  position: absolute;
+  z-index: 2;
+  background-color: #f19d00;
+  border-radius: 50%;
+}
+
+.product .circle3 {
+  height: 80px;
+  width: 80px;
+  top: 48%;
+  right: 5%;
+  position: absolute;
+  z-index: 2;
+  background-color: #dcff18;
+  border-radius: 50%;
+}
+
+.product .productHeader {
+  padding-top: 130px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+}
+
+.product .productHeader .headingContent {
+  width: 50%;
+  padding-right: 12px;
+  color: #FFF;
+}
+
+.product .productHeader .headingContent h1 {
+  font-size: 48px;
+  line-height: 4rem;
+  padding-top: 14px;
+  font-family: 'Metropolis', sans-serif;
+}
+
+.product .productHeader .headingContent p {
+  padding-top: 24px;
+  line-height: 1.7rem;
+}
+
+.product .productHeader .headingContent .formSearch {
+  margin-top: 32px;
+}
+
+.product .productHeader .headingContent .formSearch input {
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  font-family: 'Poppins', sans-serif;
+  padding: .8rem 2rem;
+}
+
+.product .productHeader .headingContent button.button-search {
+  padding: .8rem 2rem;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: #2323c0;
+}
+
+.product .productHeader .headingContent button.button-search:hover {
+  cursor: pointer;
+  background-color: #151597;
+}
+
+.product .productHeader .headingContent .latestSearch {
+  margin-bottom: -18px;
+}
+
+.product .productHeader .headingContent .keySearch {
+  display: flex;
+}
+
+.product .productHeader .headingContent .keySearch p {
+  margin-top: 20px;
+  padding: .5rem 1.5rem;
+  background-color: #19374b;
+}
+
+.product .productHeader .headingContent .keySearch p:nth-child(2) {
+  margin-left: 12px;
+}
+
+.product .productHeader .headingContent .keySearch p:hover {
+  cursor: pointer;
+  background-color: #072336;
+}
+
+.product .productHeader .imageHeader {
+  width: 50%;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.product .productHeader .imageHeader .rectangle {
+  width: 220px;
+  height: 400px;
+  border-radius: 10px;
+  background-color: #e2e2e2;
+}
+
+.product .productHeader .imageHeader .rectangle img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.product .productHeader .imageHeader .rectangle:nth-child(2) {
+  transform: translateY(32px);
+}
+
+.product .openingProduct {
+  margin-top: 70px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.product .openingProduct .cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.product .openingProduct .cards .card {
+  width: 18rem;
+  margin-top: 16px;
+  border-radius: 8px;
+  border: .5px solid #e7e7e7;
+  transition: .3s ease-out;
+}
+
+.product .openingProduct .cards .card:hover {
+  cursor: pointer;
+  box-shadow: 0px 5px 24px 0px #e0e0e0;
+}
+
+.product .openingProduct .cards .card .card-image {
+  width: 100%;
+  height: 200px;
+}
+
+.product .openingProduct .cards .card .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  background-position: center;
+}
+
+.product .openingProduct .cards .card .card-image p {
+  background-color: #FFF;
+  padding: .2rem .7rem;
+  position: absolute;
+  font-size: 14px;
+  margin: 12px 0 0 12px;
+  z-index: 1;
+  border-radius: 25px;
+}
+
+.product .openingProduct .cards .card .card-body {
+  padding: 12px;
+}
+
+.product .openingProduct .cards .card .card-body .text-muted {
+  color: darkblue;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.product .openingProduct .cards .card .card-body h3 {
+  font-family: 'Rubik', sans-serif;
+}
+
+.product .openingProduct .cards .card .card-body h4 {
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.product .openingProduct .cards .card .card-body .subtitle {
+  font-size: 14px;
+  color: gray;
+  padding-top: 8px;
+  font-weight: normal;
+}
+
+.product .openingProduct .cards .card .card-footer {
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  border-top: .4px solid #E7e7e7;
+}
+
+.product .openingProduct .cards .card .card-footer .button-cart {
+  width: 100%;
+  padding: .7rem 1.4rem;
+  border: none;
+  background-color: #072336;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.product .openingProduct .cards .card .card-footer .button-cart:hover {
+  cursor: pointer;
+  background-color: #051825;
+}
+
+@media screen and (max-width: 992px) {
+  .product {
+    height: 1050px;
+  }
+  .product .productHeader {
+    padding-top: 180px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .product .productHeader .headingContent {
+    width: 100% !important;
+  }
+  .product .productHeader .headingContent h1 {
+    padding: 0px;
+    line-height: 2.7rem !important;
+    font-size: 28px !important;
+  }
+  .product .productHeader .headingContent .formSearch input {
+    width: 100% !important;
+  }
+  .product .productHeader .headingContent .formSearch .button-search {
+    width: 150px;
+    margin-left: 0px !important;
+    margin-top: 16px !important;
+  }
+  .product .productHeader .headingContent .formSearch .keySearch p {
+    padding: .5rem 1.4rem;
+  }
+  .product .productHeader .imageHeader {
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .product .productHeader .imageHeader .rectangle {
+    width: 250px;
+    height: 300px;
+  }
+  .product .productHeader .imageHeader .rectangle:nth-child(2) {
+    transform: translateY(0px);
+    margin-left: 10px;
+  }
+  .product .openingProduct .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product .openingProduct .cards .card {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .product .openingProduct .cards .card:first-child {
+    margin-top: 20px;
+  }
+}
+
+h2 {
+  padding-left: 10%;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.banner-container {
+  width: 80%;
+  margin: auto;
+  height: 300px;
+  margin-bottom: 32px;
+}
+
+.banner-container .container-overlay {
+  width: inherit;
+  height: inherit;
+  background-image: linear-gradient(to right, #000, transparent);
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  border-radius: 8px 0 0 8px;
+}
+
+.banner-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.banner-container h3 {
+  position: absolute;
+  z-index: 2;
+  padding: 20px 0 0 30px;
+  font-size: 32px;
+  color: #FFF;
+  line-height: 42px;
+}
+
+.banner-container p {
+  position: absolute;
+  width: 50%;
+  z-index: 2;
+  padding: 7.5rem 0 0 30px;
+  font-size: 16px;
+  color: #FFF;
+  line-height: 24px;
+}
+
+.banner-container button.button-telegram {
+  position: absolute;
+  z-index: 2;
+  margin: 14rem 0 0 30px;
+  padding: .5rem 1.8rem;
+  border: none;
+  background-color: blue;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: #FFF;
+  transition: .4s ease-out;
+  font-weight: 600;
+}
+
+.banner-container button.button-telegram:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+.wrapCard {
+  width: 80%;
+  margin: auto;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapCard .cardCategory {
+  width: 32%;
+  height: 126px;
+  background-color: yellow;
+  margin-top: 18px;
+}
+
+.wrapCard .cardCategory .cardOverlay {
+  width: 12%;
+  height: inherit;
+  opacity: .5;
+  position: absolute;
+  z-index: 2;
+  border-radius: 6px;
+}
+
+.wrapCard .cardCategory .first {
+  background-image: linear-gradient(to right, #070d58, transparent);
+}
+
+.wrapCard .cardCategory .sec {
+  background-image: linear-gradient(to right, black, transparent);
+}
+
+.wrapCard .cardCategory .third {
+  background-image: linear-gradient(to right, #010542, transparent);
+}
+
+.wrapCard .cardCategory .titles {
+  position: absolute;
+  z-index: 2;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4rem;
+  padding: 16px 24px;
+}
+
+.wrapCard .cardCategory img {
+  border-radius: 6px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.endProduct {
+  margin-top: -12rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.endProduct .cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.endProduct .cards .card {
+  width: 18rem;
+  margin-top: 16px;
+  border-radius: 8px;
+  border: .5px solid #e7e7e7;
+  transition: .3s ease-out;
+}
+
+.endProduct .cards .card:hover {
+  cursor: pointer;
+  box-shadow: 0px 5px 24px 0px #e0e0e0;
+}
+
+.endProduct .cards .card .card-image {
+  width: 100%;
+  height: 200px;
+}
+
+.endProduct .cards .card .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  background-position: center;
+}
+
+.endProduct .cards .card .card-image p {
+  background-color: #FFF;
+  padding: .2rem .7rem;
+  position: absolute;
+  font-size: 14px;
+  margin: 12px 0 0 12px;
+  z-index: 1;
+  border-radius: 25px;
+}
+
+.endProduct .cards .card .card-body {
+  padding: 12px;
+}
+
+.endProduct .cards .card .card-body .text-muted {
+  color: darkblue;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.endProduct .cards .card .card-body h3 {
+  font-family: 'Rubik', sans-serif;
+}
+
+.endProduct .cards .card .card-body h4 {
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.endProduct .cards .card .card-body .subtitle {
+  font-size: 14px;
+  color: gray;
+  padding-top: 8px;
+  font-weight: normal;
+}
+
+.endProduct .cards .card .card-footer {
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  border-top: .4px solid #E7e7e7;
+}
+
+.endProduct .cards .card .card-footer .button-cart {
+  width: 100%;
+  padding: .7rem 1.4rem;
+  border: none;
+  background-color: #072336;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.endProduct .cards .card .card-footer .button-cart:hover {
+  cursor: pointer;
+  background-color: #051825;
+}
